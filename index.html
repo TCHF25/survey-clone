@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Follow up survey</title>
+</head>
+
+<body>
+        <!--Form title-->
+        <div class ="header">
+            <header class ="form-title">
+                <h1 class ="title">Follow Up Survey</h1>    
+            </header>
+        </div>
+
+        <!-- Create Form -->
+        <form id="form">
+
+            <container>
+            <!-- 1st question -->
+            <!--left part-->
+            <div class="form-control">
+                <label class="subtitle">
+                    When did you use our service?
+                </label>
+                <input type="date"
+                       id="date"/>
+            </div>
+            <!--right part-->
+            <div class="form-control">
+                <label class="subtitle">
+                    Name of product or service
+                </label>
+                <input type="text"
+                       id="name"/>
+            </div>
+            </container>
+
+
+            <!-- 2nd question -->
+            <div class="form-control">
+                <label class="subtitle">
+                    Overall, how satisfied are you with the product
+                    or service?              
+                </label>
+                <!--left part radio buttons-->
+                <div class="radio-button-1">
+                    <div class="a">
+                <label>
+                    <input type="radio">Very satisfied</input>
+                </label>
+                <label>
+                    <input type="radio">Neutral</input>
+                </label>
+                <label>
+                    <input type="radio">Very unsatisfied</input>
+                </label>
+                </div>
+                <!--right part radio buttons-->
+                <div class="b">
+                <label>
+                    <input type="radio">Satisfied</input>
+                </label>
+                <label>
+                    <input type="radio">Unsatisfied</input>
+                </label>
+                <label>
+                    <input type="radio">N/A</input>
+                </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--3rd question-->
+            <div class="form-control">
+                <label class="subtitle">
+                    Did our product or service meet your expectation?
+                </label>
+                <div class="radio-button-2">
+                <div class="a">
+                <label for="yes-1">
+                    <input type="radio">Yes</input>
+                </label>
+                </div>
+                <div class="b">
+                <label for="no-1">
+                    <input type="radio">No</input>
+                </label>
+                </div>
+                </div>
+            </div>
+            
+            <!--4th question-->
+            <div class="form-control">
+                <label class="subtitle">
+                    Would you recommend this product or service to a friend?
+                </label>
+     
+                <div class="radio-button-2">
+                <div class="a">
+                <label>
+                    <input type="radio">Yes</input>
+                </label>
+                </div>
+                <div class="b">
+                <label>
+                    <input type="radio">No</input>
+                </label>
+                </div>
+                </div>
+            </div>
+
+            <!--5th question-->
+            <div class="form-control">
+                <label class="subtitle">
+                    What aspect of the product or service were
+                    you most satisfied by?             
+                </label>
+     
+                <div class="radio-button-4">
+                <div class="a">
+                <label>
+                    <input type="radio">Quality</input>
+                </label>
+                <label>
+                    <input type="radio">Customer</input>
+                </label>
+                </div>
+
+                <div class="b">
+                <label>
+                    <input type="radio">Price</input>
+                </label>
+                <label>
+                    <input type="radio">Installation or first use experience</input>
+                </label>
+                </div>
+                </div>
+            </div>
+
+            <div class="form-control">
+                    <label class="subtitle">
+                        What aspect of the product or service were you least satisfied by?        
+                    </label>
+                    <div class="radio-button-4">
+         
+                    <div class="a">
+                    <label>
+                        <input type="radio">Quality</input>
+                    </label>
+                    <label>
+                        <input type="radio">Customer</input>
+                    </label>
+                    </div>
+                    <div class="b">
+                    <label>
+                        <input type="radio">Price</input>
+                    </label>
+                    <label>
+                        <input type="radio">Installation or first use experience</input>
+                    </label>
+                    </div>
+                    </div>
+            </div>
+      
+            
+            <!-- Comments section-->
+            <div class="form-control">
+                <label for="comment">
+                    Additional comments:
+                </label>
+     
+                <textarea rows="4" cols="50" placeholder="Type here..."></textarea>
+            </div>
+      
+            <!-- Submit button -->
+            <div class="button">
+                <button>
+                    Submit
+                </button>
+            </div>
+        </form>
+    
+</body>
+</html>
